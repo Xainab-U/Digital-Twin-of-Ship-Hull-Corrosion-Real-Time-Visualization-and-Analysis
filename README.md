@@ -1,4 +1,9 @@
 
+# Digital-Twin-of-Ship-Hull-Corrosion
+
+Experience the future of maritime maintenance with our digital twin technology, showcasing real-time progressive corrosion on a ship hull. This innovative project combines advanced 3D modeling to visualize and monitor corrosion, enabling proactive maintenance and extending vessel lifespan.
+
+
 # Setup developemnt environment 
 # VSCode 
 
@@ -49,9 +54,8 @@ Based on the module you start, Replace "your-branch-name" with a preffered branc
 Once done with changes you can raise a pull request against the main branch and request review'
 
 
+# To Stream Data from API's
+Runthe server.js file.
+To run: ```node server.js```
+This will stream the Resistance and corrosion values.
 
-
-
-# Digital-Twin-of-Ship-Hull-Corrosion
-
-Experience the future of maritime maintenance with our digital twin technology, showcasing real-time progressive corrosion on a ship hull. This innovative project combines advanced 3D modeling to visualize and monitor corrosion, enabling proactive maintenance and extending vessel lifespan.
