@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+#root {
+  overflow: hidden;
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  background: #f0f0f0;
+}
+
+.stats {
+  top: unset !important;
+  left: 0 !important;
+  right: unset !important;
+  bottom: 0 !important;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.controls h3 {
+  margin-top: 0;
+  background-color: transparent;
+}
+
+.controls label {
+  display: block;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.controls .control-group input[type="checkbox"],
+.controls .control-group select {
+  margin-left: 10px;
+  background-color: transparent;
+}
+
+.controls .control-group input[type="range"] {
+  width: 100%;
+  background-color: transparent;
+}
+
+.canvas-container {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 70px;
+}
+
+.icon:hover {
+  background-color: #ccc;
+}
+
+.icon.active {
+  background-color: #bbb;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+#mesh-properties,
+#mesh-hierarchy {
+  margin-top: 20px;
+}
+
+.controls {
+  width: 20%;
+  padding: 10px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  z-index: 10;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.controls .control-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  gap: 30px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: #ddd;
+  border-radius: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 3px solid transparent;
+}
+
+.icon span {
+  font-size: 14px;
+  text-align: center;
+}
+
+.fancy-button {
+  background: linear-gradient(45deg, #e8e2ee 30%, #8fb6dc 90%);
+  border-radius: 5px;
+  color: rgb(12, 12, 12);
+  border: none;
+  padding: 5px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  width: 250px;
+  height: 40px;
+  position: absolute;
+  bottom: -730px; 
+  left: 5px;   
+}
+
+.fancy-button:hover {
+  background: linear-gradient(45deg, #8fb6dc 30%, #e8e2ee 90%);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.fancy-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
