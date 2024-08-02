@@ -27,7 +27,7 @@ Clicking on a hotspot displays its description along with values of resistance a
 These values are read from a CSV file using APIs.
 
 
-__Instructions for installations and running the project : Refer Wiki Under the Repository name. [Instructions for execution](https://github.com/vaishnavickjnvbgk/Digital-Twin-of-Ship-Hull-Corrosion/wiki/Instructions-for-execution)__
+__Instructions for installations and running the project : Refer Wiki Under the Repository name. [Instructions for execution](https://github.com/Xainab-U/Digital-Twin-of-Ship-Hull-Corrosion-Real-Time-Visualization-and-Analysis/wiki/Instructions-For-Execution)__
 
 
 # Overview of the Project
